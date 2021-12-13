@@ -1,0 +1,5 @@
+.gradle
+.idea
+aoc2019/build
+aoc2020/build
+aoc2021/build
