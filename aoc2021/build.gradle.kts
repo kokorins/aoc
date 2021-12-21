@@ -9,6 +9,8 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("com.google.guava:guava:30.1-jre")
+    implementation("org.jetbrains.kotlinx:multik-api:0.1.1")
+    implementation("org.jetbrains.kotlinx:multik-default:0.1.1")
 }
 
 val numSolved = 24
