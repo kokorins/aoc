@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.6.0"
+    kotlin("jvm") version "1.6.10"
 }
 
 repositories {
@@ -13,7 +13,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:multik-default:0.1.1")
 }
 
-val numSolved = 24
+val numSolved = 25
 for(i in 1..numSolved) {
     task("$i", JavaExec::class) {
         main = "me.aoc.Aoc${i}Kt"
